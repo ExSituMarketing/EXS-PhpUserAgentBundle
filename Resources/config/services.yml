@@ -1,0 +1,3 @@
+services:
+    exs_simple_mongo.service:
+        class: 'EXS\PhpUserAgentBundle\Services\PhpUserAgentService'
