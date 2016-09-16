@@ -35,16 +35,31 @@ class PhpUserAgentService
         $this->version = $result['version'];
     }
     
+    /**
+     * Return the detected platform type
+     * 
+     * @return string
+     */
     public function getPlatform()
     {
         return $this->platform;
     }
 
+    /**
+     * return the detected browser type
+     * 
+     * @return string
+     */
     public function getBrowser()
     {
         return $this->browser;
     }
 
+    /**
+     * return the detected browser version
+     * 
+     * @return string
+     */
     public function getVersion()
     {
         return $this->version;
