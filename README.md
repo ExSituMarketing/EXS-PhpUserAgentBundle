@@ -2,7 +2,7 @@
 Wrapper for global function in https://github.com/donatj/PhpUserAgent/ 
 
 
-## Installing the # EXS-SimpleMongoBundle in a new Symfony2 project
+## Installing the # EXS-PhpUserAgentBundle in a new Symfony2 project
 
 Edit composer.json file with # EXS-PhpUserAgentBundle dependency:
 ``` js
