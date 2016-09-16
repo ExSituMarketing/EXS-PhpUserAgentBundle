@@ -32,18 +32,20 @@ public function registerBundles()
 
 ## Usage
 
+``` php
+// initiate the service
 $service = new EXS\PhpUserAgentBundle\Services\PhpUserAgentService();
 $service->parseUserAgent(USER_AGENT_STRING_HERE);
 
-Get the detected platform type
+// Get the detected platform type
 $service->getFlatform();
 
-get the detected browser type
+// Get the detected browser type
 $service->getBrowser();
 
-Get the detected browser version
+// Get the detected browser version
 $service->getVersion();
-
+```
 
 #### Contributing ####
 Anyone and everyone is welcome to contribute.
