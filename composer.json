@@ -13,9 +13,9 @@
     ],
     "require": {
         "php": ">=5.3",
-        "symfony/symfony": "~2.8",
-        "symfony/framework-bundle": "~2.7", 
-        "donatj/phpuseragentparser": "^0.5.2"
+        "symfony/symfony": "3.4.x-dev",
+        "symfony/framework-bundle": "3.4.x-dev", 
+        "donatj/phpuseragentparser": "dev-master"
     },
     "autoload": {
         "psr-0": { "EXS\\PhpUserAgentBundle": "" }
