@@ -12,9 +12,9 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "symfony/symfony": "3.4.x-dev",
-        "symfony/framework-bundle": "3.4.x-dev",
+        "php": ">=7.2",
+        "symfony/symfony": "3.4.*",
+        "symfony/framework-bundle": "~3.4",
         "donatj/phpuseragentparser": "dev-master"
     },
     "autoload": {
